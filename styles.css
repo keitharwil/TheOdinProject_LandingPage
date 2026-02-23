@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.header .logo{
+    font-size: 24px;
+    margin: 0.6rem 0; 
+    color: #F9FAF8;
+}
+
+.header .links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 1.2rem;
+}
+
+.item {
+    text-decoration: none; 
+    color: #E5E7EB;
+}
+
+.item :hover{
+    color: #7287fd;
+}
+
+.hero.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 0;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
