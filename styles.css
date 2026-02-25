@@ -40,8 +40,20 @@ body {
 
 .hero.container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 50px 0 0;
     background-color: #1F2937;
     color: #E5E7EB;
+    gap: 16px;
+}
+
+.hero.image{
+    display: flex;
+    padding: 1.5rem
+}
+
+.hero img{
+    height: 144px;
+    max-height: 720px;
+    width: auto;
 }
